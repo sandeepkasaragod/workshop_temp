@@ -52,6 +52,8 @@ Navigate to the [CLIMB webpage](https://jhub.climb.ac.uk/) and log in.
 Choose to open a Jupyter Notebook Server from the menu on the left. Open
 a standard notebook, then a command line window.
 
+<img src="images/Artic-nf_dir_structure.png"/>
+
 ## 1.2 Notes on these instructions
 
 This is not simply a copy and paste exercise! The commands you are
