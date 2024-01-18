@@ -4,7 +4,7 @@ Conda environment
 - <a href="#1-conda-environment" id="toc-1-conda-environment">1 Conda
   environment</a>
 - <a href="#2-clone-artic-rabv-repository"
-  id="toc-2-clone-artic-rabv-repository">2 Clone artic-rabv repository</a>
+  id="toc-2-clone-artic-rabv-repository">2 Clone artic-nf repository</a>
 - <a href="#3-create-environment" id="toc-3-create-environment">3 Create
   environment</a>
 - <a href="#4-activate-the-environment"
