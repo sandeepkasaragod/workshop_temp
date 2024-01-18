@@ -30,7 +30,7 @@ mkdir /home/rage/workshop_dir
 cd /home/rage/workshop_dir
 ```
 
-# 3 Clone artic-rabv repository
+# 3 Clone Artic-nf repository
 
 First, we need to “clone” the Artic-nf repository from GitHub. Clone
 essentially means we copy the repository from GitHub.com to your local
