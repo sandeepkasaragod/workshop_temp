@@ -21,7 +21,7 @@ sequence data, generated from tiling amplicon schemes.
 
 This is nicely bundled up for us in a conda environment!
 
-# 3 Clone Artic-nf repository
+# 2 Creating workshop directory
 Create a directory/folder named "workshop_dir" in the home directory and 
 locate yourself to workshop_dir. 
 
