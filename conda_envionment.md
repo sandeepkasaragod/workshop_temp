@@ -21,30 +21,40 @@ sequence data, generated from tiling amplicon schemes.
 
 This is nicely bundled up for us in a conda environment!
 
-# 2 Clone artic-rabv repository
-
-First, we need to “clone” the artic-rabv repository from GitHub. Clone
-essentially means we copy the repository from GitHub.com to your local
-machine (or in this case, CLIMB). Enter the command below into terminal.
+# 3 Clone artic-rabv repository
+Create a directory/folder named "workshop_dir" in the home directory and 
+locate yourself to workshop_dir. The first command creates a directory 
+and the second command changes the current directory to workshop_dir.
 
 ``` shell
-git clone --recursive https://github.com/kirstyn/artic-rabv.git 
+mkdir /home/rage/workshop_dir
+cd /home/rage/workshop_dir
 ```
 
-A folder called artic-rabv should now be visible in the file browser.
+# 3 Clone artic-rabv repository
+
+First, we need to “clone” the artic-nf repository from GitHub. Clone
+essentially means we copy the repository from GitHub.com to your local
+machine. Enter the command below into terminal.
+
+``` shell
+git clone --recursive https://github.com/RAGE-toolkit/Artic-nf.git
+```
+
+A folder called Artic-nf should now be visible in the workshop_dir.
 
 <img src="images/artic-rabv.png"/>
 
-# 3 Create environment
+# 4 Create environment
 
-The file environment.yml in artic-rabv folder contains the “recipe” to
-make our conda environment. Let’s create our environment (using mamba):
+The file environment.yml in Artic-nf folder contains the “recipe” to
+make our conda environment. Let’s create our environment (using conda):
 
 ``` shell
-mamba env create --file artic-rabv/environment.yml 
+conda env create --file Artic-nf/environment.yml 
 ```
 
-Mamba should proceed to install the required packages for the artic-rabv
+conda should proceed to install the required packages for the artic-rabv
 environment (ignore warnings/errors about libmamba).
 
 <img src="images/env-create.png"/>
@@ -54,7 +64,7 @@ At the end you should see an output like this:
 ``` shell
 # To activate this environment, use
 #
-#     $ conda activate artic-rabv
+#     $ conda activate Artic-nf
 #
 # To deactivate an active environment, use
 #
