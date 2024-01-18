@@ -33,7 +33,7 @@ cd /home/rage/workshop_dir
 
 # 3 Clone artic-rabv repository
 
-First, we need to “clone” the artic-nf repository from GitHub. Clone
+First, we need to “clone” the Artic-nf repository from GitHub. Clone
 essentially means we copy the repository from GitHub.com to your local
 machine. Enter the command below into terminal.
 
@@ -93,3 +93,12 @@ conda activate artic-rabv
 And try the samtools command again (hint: use the up arrow to find the
 command instead of typing it again). It should now give an output
 because we installed samtools as part of our environment.
+
+# 5 Backup environment (optional)
+
+In case of network error or conda related issues, we have a backup conda
+env preinsalled. This env can be activated using following command.
+
+``` shell
+conda activate Artic-nf-backup
+```
