@@ -96,7 +96,7 @@ because we installed samtools as part of our environment.
 # 5 Backup environment (optional)
 
 In case of network error or conda related issues, we have a backup conda
-env preinsalled. This env can be activated using following command.
+env pre-installed. This environment can be activated using following command.
 
 ``` shell
 conda activate Artic-nf-backup
