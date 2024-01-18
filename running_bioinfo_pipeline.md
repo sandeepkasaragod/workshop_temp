@@ -6,7 +6,7 @@ Kirstyn Brunker
 - <a href="#1-bioinformatic-pipeline" id="toc-1-bioinformatic-pipeline">1
   Bioinformatic pipeline</a>
   - <a href="#11-log-in-to-climb" id="toc-11-log-in-to-climb">1.1 Structure
-    of Artic-nf</a>
+    of Artic-nf directory</a>
   - <a href="#12-notes-on-these-instructions"
     id="toc-12-notes-on-these-instructions">1.2 Mandatory parameters 
     required to run the workflow</a>
