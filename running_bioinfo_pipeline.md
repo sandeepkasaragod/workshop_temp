@@ -48,9 +48,14 @@ regions).
 
 ## 1.1 Log in to CLIMB
 
-Navigate to the [CLIMB webpage](https://jhub.climb.ac.uk/) and log in.
-Choose to open a Jupyter Notebook Server from the menu on the left. Open
-a standard notebook, then a command line window.
+Artic-nf workflow contains 6 major components
+<a> 1 Evnironment setup </a>
+<a> 2 Main workflow </a>
+<a> 3 Meta_data directory </a>
+<a> 4 Modules </a>
+<a> 5 Config file</a>
+<a> 6 raw_files directory </a>
+<a> 7 scripts </a>
 
 <img src="images/Artic-nf_dir_structure.png"/>
 
