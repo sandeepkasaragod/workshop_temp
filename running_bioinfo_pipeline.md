@@ -49,34 +49,34 @@ regions).
 ## 1.1 Log in to CLIMB
 
 Artic-nf workflow contains 6 major components
-- <a> 1 Evnironment setup </a>
-- <a> 2 Main workflow </a>
-- <a> 3 Meta_data directory </a>
-- <a> 4 Modules</a>
-- <a> 5 Config file</a>
-- <a> 6 Raw files</a>
-- <a> 7 Scripts </a>
-- <a> 8 Results </a>
+- Evnironment setup
+- Main workflow
+- Meta_data directory
+- Modules
+- Config file
+- Raw files
+- Scripts
+- Results
 
-<b> 1 Evnironment setup: </b> Conains necessary modules/tools required to
+<b> Evnironment setup: </b> Conains necessary modules/tools required to
 support the workflow. During the initial setup. It is recommended use the
 <b>environment.yml</b> file to setup the workflow.
 
 Alternatively, manual_package_install.txt can be used to install the package
 maually when the environment.yml is unable to run sucessfully. 
 
-<b> 2 Main workflow: </b> This enables the execution of the entire workflow.
+<b> Main workflow: </b> This enables the execution of the entire workflow.
 Generally all the sub-tasks are stiteched together and executed by the 
 "main.nf" module.
 
-<b> 3 Meta_data directory: </b> This directory contains the sample_sheet,
+<b> Meta_data directory: </b> This directory contains the sample_sheet,
 providing information about the barcode and its corresponding sample 
 names.
 
-<b> 4 Modules: </b> All the sub workflow's are stored here, enabling in
+<b> Modules: </b> All the sub workflow's are stored here, enabling in
 easy maintanance, replacement and troubleshooting.
 
-<b> 5 Raw files: </b> It is recommended to store the raw fast5/pod5 files
+<b> Raw files: </b> It is recommended to store the raw fast5/pod5 files
 inside raw_file directory to keep the well organized project directory. 
 Althought program can accept the raw_files from any directory. 
 
