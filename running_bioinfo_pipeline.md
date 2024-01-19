@@ -49,7 +49,7 @@ regions).
 ## 1.1 Structure of Artic-nf directory
 
 Artic-nf workflow contains 6 major components
-- Evnironment setup
+- <a href="https://github.com/RAGE-toolkit/Artic-nf/blob/main/environment.yml">Evnironment setup</a>
 - Main workflow
 - Meta_data directory
 - Modules
