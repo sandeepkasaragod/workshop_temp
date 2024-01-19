@@ -52,10 +52,11 @@ Artic-nf workflow contains 6 major components
 - <a> 1 Evnironment setup </a>
 - <a> 2 Main workflow </a>
 - <a> 3 Meta_data directory </a>
-- <a> 4 Modules </a>
+- <a> 4 Modules</a>
 - <a> 5 Config file</a>
-- <a> 6 raw_files directory </a>
-- <a> 7 scripts </a>
+- <a> 6 Raw files</a>
+- <a> 7 Scripts </a>
+- <a> 8 Results </a>
 
 <b> 1 Evnironment setup: </b> Conains necessary modules/tools required to
 support the workflow. During the initial setup. It is recommended use the
@@ -74,6 +75,17 @@ names.
 
 <b> 4 Modules: </b> All the sub workflow's are stored here, enabling in
 easy maintanance, replacement and troubleshooting.
+
+<b> 5 Raw files: </b> It is recommended to store the raw fast5/pod5 files
+inside raw_file directory to keep the well organized project directory. 
+Althought program can accept the raw_files from any directory. 
+
+<b> Scripts: </b> Any programs/scripts used in the workflow, other than 
+*.nf are saved in this directory.
+
+<b> Results: </b> All the workflow outputs are stored here in a sub-folders. 
+
+Tree structure below may give you a better idea of how the files are organized in Artic-nf.
 
 <img src="images/Artic-nf_dir_structure.png"/>
 
