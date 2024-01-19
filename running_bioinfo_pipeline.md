@@ -143,7 +143,7 @@ the pipeline commands. We have a custom conda environment specifically
 for this: artic-rabv
 
 ``` shell
-conda activate ~/shared-team/conda/shared/artic-rabv
+conda activate Artic-nf
 ```
 
 ## 1.4 Data organisation
