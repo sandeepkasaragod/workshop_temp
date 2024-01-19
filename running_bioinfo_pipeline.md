@@ -105,6 +105,28 @@ includes
 - dorado_dir: Location of the Dorado software (not required if Guppy is used)
 - guppy_dir: Location of the Guppy software (not required if Dorado is used)
 
+## 1.3 Running the workflow
+Artic-nf can be run in two ways. One with passing all the mandate parameters 
+to the terminal.
+
+``` shell
+nextflow main.nf \
+ --meta_file "meta_data/sample_sheet.csv" \
+ --fast5_dir "projects/fast5/" \
+ --guppy_dir "projects/ont-guppy-cpu/bin/" \
+ --primer_schema "projects/Artic-nf/meta_data/primer-schemes/" \
+ --guppy_barcode_kits "EXP-NBD104" \
+ --output_dir "results"
+```
+
+Another with editing all the mandate parameters in the 
+**nextflow.config** file. The second method is useful if you want to safely
+store the parameters for future use. 
+
+``` shell
+nextflow main.nf
+```
+
 ## 1.2 Notes on these instructions
 
 This is not simply a copy and paste exercise! The commands you are
