@@ -59,11 +59,11 @@ Artic-nf workflow contains 6 major components
 - <a href="">Results</a>
 
 <b> Evnironment setup: </b> Conains necessary modules/tools required to
-support the workflow. During the initial setup. It is recommended use the
-<b>environment.yml</b> file to setup the workflow.
+support the workflow. It is recommended use the  <b>environment.yml</b> 
+file to setup the workflow.
 
 Alternatively, manual_package_install.txt can be used to install the package
-maually when the environment.yml is unable to run sucessfully. 
+manually when the environment.yml is unable to run sucessfully. 
 
 <b> Main workflow: </b> This enables the execution of the entire workflow.
 Generally all the sub-tasks are stiteched together and executed by the 
@@ -140,7 +140,7 @@ sections that need your input- i.e. you need to edit the code.
 
 First we need to ensure we have access to all the tools needed to run
 the pipeline commands. We have a custom conda environment specifically
-for this: artic-rabv
+for this: Artic-nf
 
 ``` shell
 conda activate Artic-nf
@@ -152,7 +152,7 @@ It important that raw data is left untouched - we don’t want to risk
 modifying these files. We can use it for input but not direct
 manipulation of the data. It is best to create a well defined space for
 any processed data. Now let us have a look at number of raw data available
-and some more details of it.
+and get some more details of it.
 
 ------------------------------------------------------------------------
 
@@ -175,7 +175,15 @@ Similarly, du command can be used provide the disk space occupied by certain
 directory or files
 
 ``` shell
-mkdir /home/rage/workshop_dir
+du -h /home/rage/workshop_dir/Artic-nf
+```
+
+The "-h" parameter provides the human readable information, such as showing
+each file size in MB/GB instead of bytes. Alternatively you can try without "h"
+option to see how the du command prints.
+
+```shell
+du /home/rage/workshop_dir/Artic-nf
 ```
 
 ------------------------------------------------------------------------
