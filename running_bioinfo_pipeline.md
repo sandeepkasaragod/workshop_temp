@@ -49,13 +49,13 @@ regions).
 ## 1.1 Log in to CLIMB
 
 Artic-nf workflow contains 6 major components
-<a> 1 Evnironment setup </a>
-<a> 2 Main workflow </a>
-<a> 3 Meta_data directory </a>
-<a> 4 Modules </a>
-<a> 5 Config file</a>
-<a> 6 raw_files directory </a>
-<a> 7 scripts </a>
+- <a> 1 Evnironment setup </a>
+- <a> 2 Main workflow </a>
+- <a> 3 Meta_data directory </a>
+- <a> 4 Modules </a>
+- <a> 5 Config file</a>
+- <a> 6 raw_files directory </a>
+- <a> 7 scripts </a>
 
 <img src="images/Artic-nf_dir_structure.png"/>
 
