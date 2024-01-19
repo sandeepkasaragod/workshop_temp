@@ -151,29 +151,31 @@ conda activate ~/shared-team/conda/shared/artic-rabv
 It important that raw data is left untouched - we don’t want to risk
 modifying these files. We can use it for input but not direct
 manipulation of the data. It is best to create a well defined space for
-any processed data. Things can get really messy really quickly when you
-are running commands and generating new files so let’s start by creating
-some file structure to store the output files we will generate.
+any processed data. Now let us have a look at number of raw data available
+and some more details of it.
 
 ------------------------------------------------------------------------
 
 ### 1.4.1 Task 1
 
-Make a new directory in the home directory called `analysis`:
+### 1.4.2
+
+list the number of raw files available in raw_file directory:
 
 ``` shell
-mkdir /home/jovyan/analysis
+ls -lh raw_files/fast5/
 ```
 
-This command gives an absolute path but you could provide a relative
-one.
+The '-l' in the command to list all the files in a given directory and 'h' 
+for providing human redable information.
 
 ### 1.4.2 Task 2
 
-Now make a sub-directory within analysis called `workshop_data`:
+Similarly, du command can be used provide the disk space occupied by certain
+directory or files
 
 ``` shell
-mkdir /home/jovyan/analysis/workshop_data
+mkdir /home/rage/workshop_dir
 ```
 
 ------------------------------------------------------------------------
