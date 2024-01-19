@@ -63,6 +63,18 @@ support the workflow. During the initial setup. It is recommended use the
 
 Alternatively, manual_package_install.txt can be used to install the package
 maually when the environment.yml is unable to run sucessfully. 
+
+<b> 2 Main workflow: </b> This enables the execution of the entire workflow.
+Generally all the sub-tasks are stiteched together and executed by the 
+"main.nf" module.
+
+<b> 3 Meta_data directory: </b> This directory contains the sample_sheet,
+providing information about the barcode and its corresponding sample 
+names.
+
+<b> 4 Modules: </b> All the sub workflow's are stored here, enabling in
+easy maintanance, replacement and troubleshooting.
+
 <img src="images/Artic-nf_dir_structure.png"/>
 
 ## 1.2 Notes on these instructions
