@@ -46,7 +46,7 @@ a consensus sequence utilising medaka for variant calling to correct for
 common MinION errors (such as those associated with homopolymer
 regions).
 
-## 1.1 Log in to CLIMB
+## 1.1 Structure of Artic-nf directory
 
 Artic-nf workflow contains 6 major components
 - Evnironment setup
@@ -85,9 +85,25 @@ Althought program can accept the raw_files from any directory.
 
 <b> Results: </b> All the workflow outputs are stored here in a sub-folders. 
 
-Tree structure below may give you a better idea of how the files are organized in Artic-nf.
+Tree structure below may give you a better idea of how the files are organized
+in Artic-nf.
 
 <img src="images/Artic-nf_dir_structure.png"/>
+
+## 1.2 Mandatory parameters
+
+The workflow requires some of the mandate parameters to run the workflow, this 
+includes
+
+- output_dir: To store all the analysis results
+- meta_file: Contains barcode and their sample details along with primer schema
+  and version
+- basecaller: Enables user to select basecaller software [Guppy or Dorado]
+- fast5_or_pod5_dir: Directory for raw files
+- primer_schema: Directory of primer_schema
+- kit_name: Barcode kit name for demux
+- dorado_dir: Location of the Dorado software (not required if Guppy is used)
+- guppy_dir: Location of the Guppy software (not required if Dorado is used)
 
 ## 1.2 Notes on these instructions
 
