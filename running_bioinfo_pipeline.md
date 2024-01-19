@@ -50,13 +50,13 @@ regions).
 
 Artic-nf workflow contains 6 major components
 - <a href="https://github.com/RAGE-toolkit/Artic-nf/blob/main/environment.yml">Evnironment setup</a>
-- Main workflow
-- Meta_data directory
-- Modules
-- Config file
-- Raw files
-- Scripts
-- Results
+- <a href="https://github.com/RAGE-toolkit/Artic-nf/blob/main/main.nf">Main workflow</a>
+- <a href="https://github.com/RAGE-toolkit/Artic-nf/tree/main/meta_data">Meta_data directory</a>
+- <a href="https://github.com/RAGE-toolkit/Artic-nf/tree/main/modules">Modules</a>
+- <a href="https://github.com/RAGE-toolkit/Artic-nf/blob/main/nextflow.config">Config file</a>
+- <a href="https://github.com/RAGE-toolkit/Artic-nf/tree/main/raw_files/fast5">Raw files</a>
+- <a href="https://github.com/RAGE-toolkit/Artic-nf/tree/main/scripts">Scripts</a>
+- <a href="">Results</a>
 
 <b> Evnironment setup: </b> Conains necessary modules/tools required to
 support the workflow. During the initial setup. It is recommended use the
@@ -83,7 +83,9 @@ Althought program can accept the raw_files from any directory.
 <b> Scripts: </b> Any programs/scripts used in the workflow, other than 
 *.nf are saved in this directory.
 
-<b> Results: </b> All the workflow outputs are stored here in a sub-folders. 
+<b> Results: </b> All the workflow outputs are stored here in a sub-folders.
+This directory is generated during the workflow run. It can be "results" or
+"analysis" or in other names (as per the user defination).
 
 Tree structure below may give you a better idea of how the files are organized
 in Artic-nf.
