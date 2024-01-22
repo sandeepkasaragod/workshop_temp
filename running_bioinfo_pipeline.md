@@ -129,36 +129,14 @@ commands you can have a look at
 less results/medaka/<sample_name>.minion.log.txt
 ```
 
-## 1.3 Running the workflow
-Artic-nf can be run in two ways. One with passing all the mandate parameters 
-to the terminal.
-
-``` shell
-nextflow main.nf \
- --meta_file "meta_data/sample_sheet.csv" \
- --fast5_dir "projects/fast5/" \
- --guppy_dir "projects/ont-guppy-cpu/bin/" \
- --primer_schema "projects/Artic-nf/meta_data/primer-schemes/" \
- --guppy_barcode_kits "EXP-NBD104" \
- --output_dir "results"
-```
-
-Another with editing all the mandate parameters in the 
-**nextflow.config** file. The second method is useful if you want to safely
-store the parameters for future use. 
-
-``` shell
-nextflow main.nf
-```
-
-## 1.2 Notes on these instructions
+## 1.4 Notes on these instructions
 
 This is not simply a copy and paste exercise! The commands you are
 instructed to run require some editing, e.g. to tell the pipeline where
 your data is. Parts of the commands with \<*some text*\> are highlighing
 sections that need your input- i.e. you need to edit the code.
 
-## 1.3 Activate the conda environment
+## 1.5 Activate the conda environment
 
 First we need to ensure we have access to all the tools needed to run
 the pipeline commands. We have a custom conda environment specifically
@@ -168,7 +146,7 @@ for this: Artic-nf
 conda activate Artic-nf
 ```
 
-## 1.4 Data organisation
+## 1.6 Data organisation
 
 It important that raw data is left untouched - we don’t want to risk
 modifying these files. We can use it for input but not direct
@@ -178,9 +156,9 @@ and get some more details of it.
 
 ------------------------------------------------------------------------
 
-### 1.4.1 Task 1
+### 1.6.1 Task 1
 
-### 1.4.2
+### 1.6.2
 
 list the number of raw files available in raw_file directory:
 
@@ -191,7 +169,7 @@ ls -lh raw_files/fast5/
 The '-l' in the command to list all the files in a given directory and 'h' 
 for providing human redable information.
 
-### 1.4.2 Task 2
+### 1.6.2 Task 2
 
 Similarly, du command can be used provide the disk space occupied by certain
 directory or files
@@ -224,7 +202,32 @@ therefore be:
 
 ------------------------------------------------------------------------
 
-## 1.5 Data
+
+## 1.7 Running the workflow
+Artic-nf can be run in two ways. One with passing all the mandate parameters 
+to the terminal.
+
+``` shell
+nextflow main.nf \
+ --meta_file "meta_data/sample_sheet.csv" \
+ --fast5_dir "projects/fast5/" \
+ --guppy_dir "projects/ont-guppy-cpu/bin/" \
+ --primer_schema "projects/Artic-nf/meta_data/primer-schemes/" \
+ --guppy_barcode_kits "EXP-NBD104" \
+ --output_dir "results"
+```
+
+Another with editing all the mandate parameters in the 
+**nextflow.config** file. The second method is useful if you want to safely
+store the parameters for future use. 
+
+``` shell
+nextflow main.nf
+```
+________________________________________________________________________
+
+
+## 1.8 Data
 
 We will be working from some rabies virus sequence data from the
 Philippines. This data was generated on a real-time sequencing run,
@@ -236,22 +239,22 @@ been live demultiplexed i.e. during the run MinKNOW separated the reads
 into barcode folders.
 
 The fastq files are in the location:
-`shared-team/sequence_data/fastq_pass`
+`home/rage/workshop_dir/raw_files/fastq/
 
 ------------------------------------------------------------------------
 
-### 1.5.1 Task 2
+### 1.8.1 Task 2
 
 Navigate to the fastq_pass directory using the command line
 
-### 1.5.2 Task 3
+### 1.8.2 Task 3
 
 List the contents of the folder. How many and what barcodes were used in
 the run?
 
 ------------------------------------------------------------------------
 
-### 1.5.3 Fastq files
+### 1.8.3 Fastq files
 
 The fastq format is (usually) a 4 line string (text) data format
 denoting a sequence and it’s corresponding quality score values. There
@@ -272,7 +275,7 @@ lines).
 
 ------------------------------------------------------------------------
 
-### 1.5.4 Task 4
+### 1.8.4 Task 4
 
 Look inside one of the barcode directories, which contains fastq files.
 Open a fastq file using the command:
