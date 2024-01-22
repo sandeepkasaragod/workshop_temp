@@ -107,6 +107,28 @@ includes
 - dorado_dir: Location of the Dorado software (not required if Guppy is used)
 - guppy_dir: Location of the Guppy software (not required if Dorado is used)
 
+## 1.3 Tasks run by the Artic-ng workflow
+Artic-nf workflow runs multiple tasks symoultaniously, Here are the list of
+tasks run by the Artic-nf.
+- Basecalling: Basecalling is performed by the user specified basecalling
+  tool
+- Barcodering: Performs demultiplexing for the basecalled fastq files
+- Plex/demux: Aggregate pre-demultiplexed reads
+- Medaka: This steps performs multiple steps related to medaka and data filtering
+  Some of the major steps are mentioned below.
+  - Alignment
+  - Variant calling
+  - Variant filter
+- Concat: Concatinating all the sequences to a single fasta file
+- Mafft: Performing mafft alignment on the concatinated sequence
+
+The medaka step executes multiple commands, if you are curious to know about the
+commands you can have a look at 
+
+```shell
+less results/medaka/<sample_name>.minion.log.txt
+```
+
 ## 1.3 Running the workflow
 Artic-nf can be run in two ways. One with passing all the mandate parameters 
 to the terminal.
