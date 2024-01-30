@@ -60,9 +60,7 @@ Artic-nf workflow contains 6 major components
 
 <b> Evnironment setup: </b> Conains necessary modules/tools required to
 support the workflow. It is recommended use the  <b>environment.yml</b> 
-file to setup the workflow.
-
-Alternatively, manual_package_install.txt can be used to install the package
+file to setup the workflow. Alternatively, manual_package_install.txt can be used to install the package
 manually when the environment.yml is unable to run sucessfully. 
 
 <b> Main workflow: </b> This enables the execution of the entire workflow.
