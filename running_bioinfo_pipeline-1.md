@@ -221,8 +221,7 @@ nextflow.conf
 ```
 
 ## 1.8 Task 5
-Go through each folder of the results section and list down the each folders/directory
-created by the Artic_nf workflow. Example command given below.
+Go through each folder of the result section and list down each folders/directory created by the Artic_nf workflow. Example command given below.
 
 ```
 ls -lh results/dorado_basecaller
