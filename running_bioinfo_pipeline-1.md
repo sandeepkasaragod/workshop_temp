@@ -196,8 +196,11 @@ Another method with editing all the parameters in the
 nextflow main.nf
 ```
 
-# Running workflow for the current practice session
+# Running workflow for the current session
 ```
+open->terminal
+cd workshop_dir/backup/Artic-nf
+conda activate artic_nf_backup
 bash command.sh
 ```
 ________________________________________________________________________
