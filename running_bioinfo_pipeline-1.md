@@ -10,7 +10,7 @@ Kirstyn Brunker
   - <a href="#12-notes-on-these-instructions"
     id="toc-12-notes-on-these-instructions">1.2 Mandatory parameters
     </a>
-    - <a href="#13-activate-the-conda-environment"
+  - <a href="#13-activate-the-conda-environment"
     id="toc-13-activate-the-conda-environment">1.3  Tasks run by the
 Artic-nf workflow</a>
   - <a href="#13-activate-the-conda-environment"
