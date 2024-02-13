@@ -205,11 +205,33 @@ bash command.sh
 ```
 ________________________________________________________________________
 
-## 1.8 Tasks 3
+## 1.8 Task 3
 
+Go through the meta data file and understand the format of the sample sheet
+
+```
+less meta_data/sample_sheet.csv
+```
+
+## 1.8 Task 4
+
+View the workflow config file using "less" command
+```
+nextflow.conf
+```
+
+## 1.8 Task 5
 Go through each folder of the results section and list down the each folders/directory
 created by the Artic_nf workflow. Example command given below.
 
 ```
 ls -lh results/dorado_basecaller
 ```
+
+## 1.8 Task 6
+View the summary stat result
+```
+less results/summary_stats2/summary_stats.txt
+```
+
+
