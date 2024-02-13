@@ -150,7 +150,7 @@ and get some more details of it.
 list the number of barcodes available in fastq_pass directory:
 
 ``` shell
-ls -lh raw_files/fast5/
+ls -lh raw_files/fastq/
 ```
 
 The '-l' in the command to list all the files in a given directory and 'h'
