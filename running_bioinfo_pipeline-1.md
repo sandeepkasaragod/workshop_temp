@@ -162,7 +162,7 @@ Similarly, du command can be used provide the disk space occupied by certain
 directory or files
 
 ``` shell
-du -h /home/rage/workshop_dir/Artic-nf
+du -h scripts
 ```
 
 The "-h" parameter provides the human readable information, such as showing
@@ -170,7 +170,7 @@ each file size in MB/GB instead of bytes. Alternatively you can try without "h"
 option to see how the du command prints.
 
 ```shell
-du /home/rage/workshop_dir/Artic-nf
+du scripts
 ```
 
 ------------------------------------------------------------------------
@@ -196,7 +196,7 @@ Another method with editing all the parameters in the
 nextflow main.nf
 ```
 
-# Running workflow for the current session
+## 1.8 Running workflow for the current session
 ```
 open->terminal
 cd workshop_dir/backup/Artic-nf
@@ -205,7 +205,7 @@ bash command.sh
 ```
 ________________________________________________________________________
 
-## 1.8 Task 3
+## 1.9 Task 3
 
 Go through the meta data file and understand the format of the sample sheet
 
@@ -213,21 +213,21 @@ Go through the meta data file and understand the format of the sample sheet
 less meta_data/sample_sheet.csv
 ```
 
-## 1.8 Task 4
+## 1.9 Task 4
 
 View the workflow config file using "less" command
 ```
 less nextflow.conf
 ```
 
-## 1.8 Task 5
+## 1.9 Task 5
 Go through each folder of the result section and list down each folders/directory created by the Artic_nf workflow. Example command given below.
 
 ```
 ls -lh results/dorado_basecaller
 ```
 
-## 1.8 Task 6
+## 1.9 Task 6
 View the summary stat result
 ```
 less results/summary_stats2/summary_stats.txt
