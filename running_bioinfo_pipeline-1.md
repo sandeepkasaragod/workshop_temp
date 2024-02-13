@@ -1,6 +1,6 @@
 Artic pipeline
 ================
-Kirstyn Brunker
+Sandeep Kasaragod
 2024-02-01
 
 - <a href="#1-bioinformatic-pipeline" id="toc-1-bioinformatic-pipeline">1
