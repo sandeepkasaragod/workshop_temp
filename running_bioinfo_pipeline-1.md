@@ -11,21 +11,16 @@ Sandeep Kasaragod
     id="toc-12-notes-on-these-instructions">1.2 Mandatory parameters
     </a>
   - <a href="#13-activate-the-conda-environment"
-    id="toc-13-activate-the-conda-environment">1.3  Tasks run by the
-Artic-nf workflow</a>
+    id="toc-13-activate-the-conda-environment">1.3 Tasks run by the Artic-nf workflow</a>
   - <a href="#13-activate-the-conda-environment"
-    id="toc-13-activate-the-conda-environment">1.3 Activate the conda
-    environment</a>
+    id="toc-13-activate-the-conda-environment">1.4 Notes on these instructions</a>
   - <a href="#14-data-organisation" id="toc-14-data-organisation">1.4 Data
     organisation</a>
-  - <a href="#15-data" id="toc-15-data">1.5 Data</a>
-  - <a href="#16-gather-the-data" id="toc-16-gather-the-data">1.6 Gather the
-    data</a>
-  - <a href="#17-medaka-pipeline" id="toc-17-medaka-pipeline">1.7 Medaka
-    pipeline</a>
+  - <a href="#15-data" id="toc-15-data">1.5 Download Artic-nf and activate the conda environment</a>
+  - <a href="#16-gather-the-data" id="toc-16-gather-the-data">1.6 Data organization</a>
+  - <a href="#17-medaka-pipeline" id="toc-17-medaka-pipeline">1.7 Running the workflow</a>
   - <a href="#18-looking-at-the-data" id="toc-18-looking-at-the-data">1.8
-    Looking at the data</a>
-  - <a href="#19-bam-files" id="toc-19-bam-files">1.9 BAM files</a>
+    Running workflow for the current session</a>
 
 # 1 Bioinformatic pipeline
 
