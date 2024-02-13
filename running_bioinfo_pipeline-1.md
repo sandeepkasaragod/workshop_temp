@@ -217,7 +217,7 @@ less meta_data/sample_sheet.csv
 
 View the workflow config file using "less" command
 ```
-nextflow.conf
+less nextflow.conf
 ```
 
 ## 1.8 Task 5
