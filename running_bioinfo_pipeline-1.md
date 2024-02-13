@@ -26,7 +26,7 @@ Sandeep Kasaragod
 
 During this practical session will be running the Artic-nf workflow
 which requires nextflow and artic packages to be installed on the conda
-environment. This workflow processes the raw data (fast5/pod5) to produce the
+environment. This workflow processes the raw data (fastq) to produce the
  consensus sequences.
 
 ## 1.1 Structure of Artic-nf directory
