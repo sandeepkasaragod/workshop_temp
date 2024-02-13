@@ -202,8 +202,9 @@ conda activate artic_nf_backup
 bash command.sh
 ```
 ________________________________________________________________________
+## Tasks
 
-## 1.9 Task 3
+## 1.9.1 Task 3
 
 Go through the meta data file and understand the format of the sample sheet
 
@@ -211,21 +212,21 @@ Go through the meta data file and understand the format of the sample sheet
 less meta_data/sample_sheet.csv
 ```
 
-## 1.9 Task 4
+## 1.9.2 Task 4
 
 View the workflow config file using "less" command
 ```
 less nextflow.conf
 ```
 
-## 1.9 Task 5
+## 1.9.3 Task 5
 Go through each folder of the result section and list down each folders/directory created by the Artic_nf workflow. Example command given below.
 
 ```
 ls -lh results/dorado_basecaller
 ```
 
-## 1.9 Task 6
+## 1.9.4 Task 6
 View the summary stat result
 ```
 less results/summary_stats2/summary_stats.txt
