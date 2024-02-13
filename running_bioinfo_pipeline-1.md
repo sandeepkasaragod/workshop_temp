@@ -195,6 +195,11 @@ Another method with editing all the parameters in the
 ``` shell
 nextflow main.nf
 ```
+
+# Running workflow for the current practice session
+```
+bash command.sh
+```
 ________________________________________________________________________
 
 ## 1.8 Tasks 3
