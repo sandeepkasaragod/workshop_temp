@@ -3,17 +3,17 @@ Artic pipeline
 Sandeep Kasaragod
 2024-02-01
 
-- <a href="#1-bioinformatic-pipeline" id="toc-1-bioinformatic-pipeline">1
+- <a href="">1
   Bioinformatic pipeline</a>
-  - <a>1.1 Structure of Artic-nf directory</a>
-  - <a>1.2 Mandatory parameters</a>
-  - <a>1.3 Tasks run by the Artic-nf workflow</a>
-  - <a>1.4 Notes on these instructions</a>
-  - <a>1.5 Download Artic-nf and activate the conda environment</a>
-  - <a>1.6 Data organization</a>
-  - <a>1.7 Running the workflow</a>
-  - <a>1.8 Running workflow for the current session</a>
-  - <a>1.9 Tasks </a>
+  - <a href="">1.1 Structure of Artic-nf directory</a>
+  - <a href="">1.2 Mandatory parameters</a>
+  - <a href="">1.3 Tasks run by the Artic-nf workflow</a>
+  - <a href="">1.4 Notes on these instructions</a>
+  - <a href="">1.5 Download Artic-nf and activate the conda environment</a>
+  - <a href="">1.6 Data organization</a>
+  - <a href="">1.7 Running the workflow</a>
+  - <a href="">1.8 Running workflow for the current session</a>
+  - <a href="">1.9 Tasks </a>
 
 # 1 Bioinformatic pipeline
 
