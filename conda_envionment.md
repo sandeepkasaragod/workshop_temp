@@ -26,8 +26,9 @@ Create a directory named "workshop_dir" in the home directory and
 locate yourself to workshop_dir. 
 
 ``` shell
-mkdir /home/rage/workshop_dir
-cd /home/rage/workshop_dir
+mkdir temp_dir
+cd temp_dir
+pwd
 ```
 
 # 3 Clone Artic-nf repository
@@ -63,7 +64,7 @@ At the end you should see an output like this:
 ``` shell
 # To activate this environment, use
 #
-#     $ conda activate Artic-nf
+#     $ conda activate artic_nf
 #
 # To deactivate an active environment, use
 #
@@ -86,7 +87,7 @@ samtools --help
 Terminal will say command not found. Now activate the environment:
 
 ``` shell
-conda activate artic-rabv
+conda activate artic_nf
 ```
 
 And try the samtools command again (hint: use the up arrow to find the
@@ -99,5 +100,5 @@ In case of network error or conda related issues, we have a backup conda
 env pre-installed. This environment can be activated using following command.
 
 ``` shell
-conda activate Artic-nf-backup
+conda activate artic_nf_backup
 ```
